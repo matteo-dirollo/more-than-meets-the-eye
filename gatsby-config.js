@@ -1,5 +1,5 @@
 require('dotenv').config({
-  path: `netifly.toml`,
+  path: `.env`,
 })
 
 const prismicHtmlSerializer = require('./src/gatsby/htmlSerializer')
